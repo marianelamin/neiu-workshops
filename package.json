@@ -1,0 +1,31 @@
+{
+  "name": "workshop",
+  "version": "1.0.0",
+  "description": "website containing info regarding all workshops will be given during the semester Spring 2019",
+  "main": "index.htm",
+  "scripts": {
+    "start": "npm run lite",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lite": "lite-server"
+  },
+  "keywords": [
+    "kali",
+    "linux",
+    "steganography",
+    "hidden",
+    "images",
+    "web development",
+    "html", 
+    "css",
+    "javascript",
+    "command-Line",
+    "workshop",
+    "learning",
+    "teaching"
+  ],
+  "author": "Marianela Crissman",
+  "license": "MIT",
+  "devDependencies": {
+    "lite-server": "^2.4.0"
+  }
+}

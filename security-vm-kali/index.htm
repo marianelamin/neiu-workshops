@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+        <title>Security - Workshop</title>
+
+        <style>
+        *{
+                box-sizing: border-box;
+            }
+        h1{
+            text-align: center;
+        }
+        h2{
+            font-size: 2rem;
+            text-align: center;
+        }
+        h3{
+            font-size: 1.3rem;
+            text-align: left;
+        }
+        #hid{
+            color:lightblue;
+        }
+        a{
+            color:lightsalmon;
+        }
+        .content-header{background: #eeeeee;
+            padding-top: 2rem;
+            padding-bottom: 2rem;
+        }
+        .content-body{
+            background: #fefefe;
+            padding: 6rem 3rem 6rem 3rem;
+            text-align: justify;
+        }
+        .content-body-section{
+            padding-top: 3rem;
+            padding-bottom: 3rem;
+            background: url(class.jpg), rgba(39, 19, 255, 0.7);
+            background-size: cover;
+            background-blend-mode: overlay;
+            color:white;
+        }
+        .content-body-section div:nth-child(n) {
+            border-left: 1.7rem #FFEB3B solid;
+            padding: 2rem 1rem 2rem 3rem;
+        }
+        .content-body-section div:nth-child(n)>ul {
+            list-style-type: square;
+        }
+        .brand-name{
+            border-radius: 3px;
+            background: #b3bdf4;/*#8065ff;#2196f3;*/
+            padding: 1px 2px;
+        }
+        .content-footer{background: #324f5d;
+            padding-left: 1rem;
+            padding-right: 1rem;
+            min-height: 4rem;
+            align-items: center;
+            color:#ffb300;
+        }
+        #box-gift-gliffy{
+            padding-top:2rem;
+            padding-bottom: 2rem;
+        }
+        #box-gift-gliffy button{
+            color: #ffb300;
+            font-size: 0.9rem;
+            background: #34502b;
+            border-radius: 1rem;
+            border: none;
+            padding: 0.5rem 3rem 0.5rem 3rem;
+           
+        }
+        a:hover{
+            color:#ffdfdf;
+        }
+        .surprise{
+            background: #add8e6;
+            border-radius: 10px;
+            padding: 1rem 0 1rem 0;
+            color: #ce6b5d;
+            font-size: 1.5rem;
+            text-align: center;
+            width: 100%;
+            margin: 0 auto;
+        }
+
+@media only screen and (min-width:576px){
+    .content-body-section div:nth-child(n) {
+            border-left: 1rem #FFEB3B solid;
+        }
+        #box-gift-gliffy button{
+            border-radius: 2rem;
+            padding: 0.5rem 3rem 0.5rem 3rem;
+        }
+        .surprise{
+            padding: 3rem;
+            width: 70%;
+        }
+}
+        </style>
+    </head>
+    <body>
+        <div class="container-fluid">
+            <div class="row content-header">
+                <nav class="col-12 navigation">
+                        <h1 id="title">CYBER CLOAK</h1>
+                        <h2>How good are you at <span id="hid">hidding</span>?</h2>
+                </nav>
+            </div>
+            <div class="row content-body">
+                <div class="col-12">
+                        
+                    <p>You will learn how to install a virtual machine and explore one of the most known, by security experts, distributions of linux: KALI LINUX.  In addition, you will discover how to hide and unhide information from an image. This art is called steganography.</p>
+                    
+                    <div class="row justify-content-around py-5">
+                        <div class="col-5 col-md-3 ">
+                            <img class="img-fluid rounded" src="kali1.jpg" alt="kali linux image">
+                        </div>
+                        <div class="col-5 col-md-3 ">
+                            <img class="img-fluid rounded" src="pc.png" alt="pc image">
+                        </div>
+                        <!-- <img class="col-2 col-md-2 img-fluid rounded" src="apple.png" alt="Apple image"> -->
+                        <!-- <img class="col-3 col-md-2 img-fluid rounded" src="windows.png" alt="Windows image"> -->
+                    </div>
+                    <div class="surprise">
+                        <p style="width:70%; margin: 0 auto;">Imagine you can hide your java program in a picture and have a partner never notice it.</p>
+                        <div class="col-7 col-sm-5" id="box-gift-gliffy" style="margin: 0 auto;">
+                                
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+                <div class="row justify-content-around content-body-section">
+                <div class="col-sm-4 col-lg-4">
+                        <h3>WORKSHOP AGENDA</h3>
+                        <ul>
+                            <li>Introduction</li>
+                            <li>Virtual Machine Installation</li>
+                            <li>Kali Linux installation & Exploration</li>
+                            <li>Challenges
+                                <ul>
+                                    <li>Text file</li>
+                                    <li>Java program</li>
+                                    <li>Audio file</li>
+                                </ul>
+                        </ul>
+                </div>
+                <div class="col-sm-6 col-lg-7">
+                    <h3>INSTRUCTIONS</h3>
+                    <p>If you would like to partcipate please make sure you come prepared. This will be a <strong>BYOL</strong> event. *Bring Your Own Laptop.</p>
+                    Download
+                    <ol>
+                        <li>Virtual machine</li>
+                            <ul>
+                                <li>for <span class="brand-name">Windows</span> users: <a href="https://www.vmware.com/products/workstation-player/workstation-player-evaluation.html">VMWare workstation player 15</a></li>
+                                <li>for <span class="brand-name">Mac</span> users: <a href="">VirtualBox</a> </li>
+                            </ul>
+                        <li>The  Kali Linux image files from <a href="https://www.kali.org/downloads/12/">kali.org</a>.  Make sure you select according to your personal computer specifications.</li>
+                        <li>Erik <a href="Kernel64bit.zip">here is the link to the Kernels</a>, I dont know where to place it</li>
+                    </ol>
+                </div>
+            </div>
+            <div class="row justify-content-between content-footer">
+                <span>Copyrights 2019</span>
+                <span>NEIU students</span>
+            </div>
+        </div>
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+        <script>
+            function unwrapit()
+            {
+                document.getElementById('box-gift-gliffy').innerHTML = '<div style="width:100%;height:auto;position:relative;"><iframe src="https://giphy.com/embed/5VKbvrjxpVJCM" width="100%" height="100%" style="/*position:absolute*/" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></div>\
+                 <button onclick="wrapit()">close</button>';
+            }
+            function wrapit()
+            {
+                document.getElementById('box-gift-gliffy').innerHTML = '<img class="img-fluid" title="click me!" src="gift.png" alt="gift" onclick="unwrapit()" />';
+            }
+
+            document.ready(wrapit());
+        </script>
+    </body>
+</html>
