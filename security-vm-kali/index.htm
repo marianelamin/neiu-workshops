@@ -5,7 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
-
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
         <style>
         *{
                 box-sizing: border-box;
@@ -55,6 +55,17 @@
             border-radius: 3px;
             background: #b3bdf4;/*#8065ff;#2196f3;*/
             padding: 1px 2px;
+        }
+        .image-pool, .instructions {
+            padding-top: 3rem;
+            padding-bottom: 3rem;
+            
+        }
+        .image-pool{
+            background:lightblue
+        }
+        .image-pool h2 {
+            color:#324f5d;
         }
         .content-footer{background: #324f5d;
             padding-left: 1rem;
@@ -141,9 +152,9 @@
                 <div class="col-sm-4 col-lg-4">
                         <h3>WORKSHOP AGENDA</h3>
                         <ul>
-                            <li>Introduction</li>
                             <li>Virtual Machine Installation</li>
                             <li>Kali Linux installation & Exploration</li>
+                            <li>Introduction to Steganography</li>
                             <li>Challenges
                                 <ul>
                                     <li>Text file</li>
@@ -152,6 +163,8 @@
                                 </ul>
                         </ul>
                 </div>
+            </div>
+            <div class="row justify-content-around instructions">
                 <div class="col-sm-6 col-lg-7">
                     <h3>INSTRUCTIONS</h3>
                     <p>If you would like to partcipate please make sure you come prepared. This will be a <strong>BYOL</strong> event. *Bring Your Own Laptop.</p>
@@ -159,14 +172,40 @@
                     <ol>
                         <li>Virtual machine</li>
                             <ul>
-                                <li>for <span class="brand-name">Windows</span> users: <a href="https://www.vmware.com/products/workstation-player/workstation-player-evaluation.html">VMWare workstation player 15</a></li>
+                                <li>for <span class="brand-name">Windows</span> users: <a href="https://www.vmware.com/products/workstation-player/workstation-player-evaluation.html">VMWare workstation player 15</a>.</li>
                                 <li>for <span class="brand-name">Mac</span> users: <a href="">VirtualBox</a> </li>
                             </ul>
                         <li>The  Kali Linux image files from <a href="https://www.kali.org/downloads/12/">kali.org</a>.  Make sure you select according to your personal computer specifications.</li>
-                        <li>Erik <a href="Kernel64bit.zip">here is the link to the Kernels</a>, I dont know where to place it</li>
                     </ol>
+                    <p>After you have downloaded the corresponding programs, here are some instrucitons to help you set your Virtual Machine up.</p>
+                    <ul>
+                        <li>See <a href="KaliVMonWindows.pdf" target="_blank">instructions</a> and a <a href="https://www.youtube.com/watch?v=6OkIv5cwk6I&feature=youtu.be" target="_blank">youtube video</a> to install VMware + Kali installation for Windows/Linux users.</li>
+                        <li>See <a href="VirtualBoxforMacUsers.pdf" target="_blank">instructions</a> and a <a href="https://www.youtube.com/watch?v=Ow96bkH2cTI&t=177s" target="_blank">youtube video</a> to install virtual box and kali Linux for Mac users.</li>
+                    </ul>
+                    <p>Please let us know if you encounter any problem.</p>
                 </div>
             </div>
+            <div class="row justify-content-around image-pool">
+                    <h2 class="col-12 my-3">Image pool</h2>
+                    <div class="row p-4">
+                        <div class="col-sm-6 col-md-4 col-lg-3"><img class="img-fluid img-thumbnail m-1" src="images/Kali _Workshop _embeded _pictures/EagleN.jpg" alt="eagleN" title="pick me!"/></div>
+                        <div class="col-sm-6 col-md-4 col-lg-3"><img class="img-fluid img-thumbnail m-1" src="images/Kali _Workshop _embeded _pictures/Hide.jpg" alt="hide2" title="pick me!"/></div>
+                        <div class="col-sm-6 col-md-4 col-lg-3"><img class="img-fluid img-thumbnail m-1" src="images/Kali _Workshop _embeded _pictures/Hide,.jpg" alt="hide1" title="pick me!"/></div>
+                        <div class="col-sm-6 col-md-4 col-lg-3"><img class="img-fluid img-thumbnail m-1" src="images/Kali _Workshop _embeded _pictures/tacos.jpeg" alt="tacos1" title="pick me!"/></div>
+                        <div class="col-sm-6 col-md-4 col-lg-3"><img class="img-fluid img-thumbnail m-1" src="images/Kali _Workshop _embeded _pictures/Tacos.jpeg" alt="tacos2" title="pick me!"/></div>
+                        <div class="col-sm-6 col-md-4 col-lg-3"><img class="img-fluid img-thumbnail m-1" src="images/Kali _Workshop _embeded _pictures/puppy.jpg" alt="puppy" title="pick me!"/></div>
+                        <div class="col-sm-6 col-md-4 col-lg-3"><img class="img-fluid img-thumbnail m-1" src="images/Kali _Workshop _embeded _pictures/Mp3.jpg" alt="mp3" title="pick me!"/></div>
+                        <div class="col-sm-6 col-md-4 col-lg-3"><img class="img-fluid img-thumbnail m-1" src="images/Kali _Workshop _embeded _pictures/neiueagle2.jpg" alt="neiu-friendly-eagle" title="pick me!"/></div>
+                        
+                        <div class="col-sm-6 col-md-4 col-lg-3"><img class="img-fluid img-thumbnail m-1" src="images/Kali _Workshop _embeded _pictures/newimg.jpg" alt="new" title="pick me!"/></div>
+
+
+                    </div>
+                    
+
+                </div>
+            </div>
+
             <div class="row justify-content-between content-footer">
                 <span>Copyrights 2019</span>
                 <span>NEIU students</span>
